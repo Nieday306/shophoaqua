@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- reset css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- font  -->
+    <link rel="stylesheet" href="./assets/font/stylesheet.css" />
+    <title>CTN - Ứng dụng học lập trình trực tuyến</title>
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/Favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/Favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/Favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/Favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/Favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/Favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/Favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/Favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/Favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/Favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/Favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/Favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/Favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/Favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="header">
+        <div class="header-top">
+          <div class="logo">
+            <img class="logo-img" src="./assets/img/logo.png" alt="CTN" />
+            <span class="logo-desc">Trang web dạy học trực tuyến</span>
+          </div>
+          <form action="" class="search" method="post">
+            <input
+              class="search__txt"
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Tìm kiếm khóa học, lớp học..."
+            />
+            <button class="search__submit" type="submit">
+              <i class="fa fa-search" style="font-size: 19px"></i>
+            </button>
+          </form>
+          <div class="header__log">
+            <a href="./login.html" class="btn header__login">Đăng nhập</a>
+            <a href="#!" class="btn header__register">Đăng ký</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <div class="sidebar">
+        <ul class="sidebar__menu">
+          <li class="sidebar__item">
+            <a href="#!" class="sidebar__desc"
+              ><i class="fa fa-home" style="font-size: 24px"></i
+              ><span>Trang chủ</span></a
+            >
+          </li>
+          <li class="sidebar__item">
+            <a href="#!" class="sidebar__desc"
+              ><i class="fa fa-book" style="font-size: 24px"></i
+              ><span>Khóa học</span></a
+            >
+          </li>
+          <li class="sidebar__item">
+            <a href="#!" class="sidebar__desc"
+              ><i class="fa fa-briefcase" style="font-size: 24px"></i
+              ><span>Lớp học</span></a
+            >
+          </li>
+          <li class="sidebar__item">
+            <a href="#!" class="sidebar__desc"
+              ><i class="fa fa-phone" style="font-size: 24px"></i
+              ><span>Liên hệ</span></a
+            >
+          </li>
+          <li class="sidebar__item">
+            <a href="#!" class="sidebar__desc"
+              ><i class="fa fa-bell-o" style="font-size: 24px"></i
+              ><span>Thông báo</span></a
+            >
+          </li>
+        </ul>
+        <div class="sidebar__content">
+          <!-- banner -->
+          <div class="content__banner">
+            <div class="container">
+              <div class="banner">
+                <img
+                  src="./assets/img/banner-content.png"
+                  alt="banner"
+                  class="banner-img"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- course -->
+          <div class="content__course">
+            <div class="container">
+              <h2 class="course-title">Toàn bộ khóa học</h2>
+              <div class="list__course">
+                <!-- item 1 -->
+                <div class="course__item">
+                  <a href="#!" class="course__item-link">
+                    <img
+                      src="./assets/img/course-js.jpg"
+                      alt=""
+                      class="course-thumnail"
+                    />
+                    <span class="course-desc">Javascript Pro</span>
+                    <span class="price">
+                      <span class="pre-price"><del>2.000.000đ</del></span>
+                      <span class="price-final">1.000.000đ</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer></footer>
+  </body>
+</html>

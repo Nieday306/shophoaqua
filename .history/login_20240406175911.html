@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- reset css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- login css -->
+    <link rel="stylesheet" href="./assets/css/login.css" />
+    <!-- font  -->
+    <link rel="stylesheet" href="./assets/font/stylesheet.css" />
+    <title>CTN - Đăng nhập</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="login">
+        <form
+          action="https://api-gateway.fullstack.edu.vn/action_page.php"
+          method="post"
+          autocomplete="off"
+        >
+          <h1 class="login-title">Đăng nhập</h1>
+          <div class="form-group">
+            <div class="row row-text">
+              <label for="username"
+                ><i class="fa fa-user-o" style="font-size: 24px"></i
+              ></label>
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Nhập tên người dùng..."
+                required
+                minlength="8"
+              />
+            </div>
+            <p class="form-error">* Nhập từ 8 ký tự trở lên</p>
+          </div>
+          <div class="form-group">
+            <div class="row row-text">
+              <label for="password">
+                <i class="fa fa-lock" style="font-size: 30px"></i>
+              </label>
+              <input
+                type="text"
+                name="password"
+                id="password"
+                placeholder="Nhập mật khẩu...."
+                required
+                minlength="8"
+              />
+            </div>
+            <p class="form-error">* Nhập từ 8 kí tự trở lên</p>
+          </div>
+          <div class="form-group">
+            <div class="row row-remember">
+              <input type="checkbox" name="remember" id="remember" hidden />
+              <label class="remember" for="remember">Lưu đăng nhập</label>
+              <a href="#!" class="forgot-pass">Quên mật khẩu?</a>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="row">
+              <input type="submit" value="Đăng nhập" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  margin: 0px auto;
+}
+
+/*================== common =========================*/
+
+/* =======================header==================== */
+
+.header-top {
+  height: 65px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  margin-left: 16px;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px rgb(3, 3, 3);
+}
+
+.logo-desc {
+  font-size: 1.4rem;
+  color: #000;
+  font-weight: 700;
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width: 471px) {
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    margin-left: 20px;
+  }
+  .logo-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 7px;
+    box-shadow: 0px 0px 1px rgb(3, 3, 3, 0.5);
+  }
+}

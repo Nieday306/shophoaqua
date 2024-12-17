@@ -1,0 +1,95 @@
+:root {
+  --primary-color: #607ecc;
+  --font-secondary: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  margin: 0px auto;
+}
+
+/*================== common =========================*/
+
+/* =======================header==================== */
+
+.header-top {
+  height: 65px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  margin-left: 20px;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 7px;
+  box-shadow: 0px 0px 1px rgb(3, 3, 3, 0.5);
+}
+
+.logo-desc {
+  font-family: var(--font-secondary);
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.search {
+  margin-left: 200px;
+  height: 40px;
+  width: 422px;
+  border: 1px solid #e8e8e8;
+  border-radius: 20px;
+  transition: border 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search:focus-within {
+  border-color: #ccc;
+}
+
+.search__submit {
+  width: 10%;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.fa-search {
+  color: #707070;
+}
+
+.search__txt {
+  height: 100%;
+  background-color: transparent;
+  width: 90%;
+  outline: none;
+  border-radius: 0 20px 20px 0;
+  border: none;
+}

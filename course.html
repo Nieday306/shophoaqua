@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- reset css -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- font  -->
+    <link rel="stylesheet" href="./assets/font/stylesheet.css" />
+    <title>CTN - Ứng dụng học lập trình trực tuyến</title>
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/Favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/Favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/Favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/Favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/Favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/Favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/Favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/Favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/Favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/Favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/Favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/Favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/Favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/Favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="header">
+        <div class="header-top">
+          <div class="logo">
+            <a href="./index.html"><img class="logo-img" src="./assets/img/logo.png" alt="CTN" /></a>
+            <span class="logo-desc">Trang web dạy học trực tuyến</span>
+          </div>
+          <form action="" class="search" method="post">
+            <input
+              class="search__txt"
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Tìm kiếm khóa học, lớp học..."
+            />
+            <button class="search__submit" type="submit">
+              <i class="fa fa-search" style="font-size: 19px"></i>
+            </button>
+          </form>
+          <div class="header__log">
+            <a href="./login.html" class="btn header__login">Đăng nhập</a>
+            <a href="#!" class="btn header__register">Đăng ký</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <div class="sidebar">
+        <ul class="sidebar__menu">
+          <li class="sidebar__item">
+            <a href="./index.html" class="sidebar__desc"
+              ><i class="fa fa-home" style="font-size: 24px"></i
+              ><span>Trang chủ</span></a
+            >
+          </li>
+          <li class="sidebar__item">
+            <a href="/" class="sidebar__desc"
+              ><i class="fa fa-book" style="font-size: 24px"></i
+              ><span>Khóa học</span></a
+            >
+          </li>
+          <li class="sidebar__item">
+            <a href="./class.html" class="sidebar__desc"
+              ><i class="fa fa-briefcase" style="font-size: 24px"></i
+              ><span>Lớp học</span></a
+            >
+          </li>
+          <li class="sidebar__item">
+            <a href="./callme.html" class="sidebar__desc"
+              ><i class="fa fa-phone" style="font-size: 24px"></i
+              ><span>Liên hệ</span></a
+            >
+          </li>
+          <li class="sidebar__item">
+            <a href="#!" class="sidebar__desc"
+              ><i class="fa fa-bell-o" style="font-size: 24px"></i
+              ><span>Thông báo</span></a
+            >
+          </li>
+        </ul>
+        <div class="sidebar__content">
+          <!-- banner -->
+        
+          <!-- course -->
+          <div class="content__course">
+            <div class="container">
+              <h2 class="course-title">Toàn bộ khóa học</h2>
+              <div class="list__course">
+                <!-- item 1 -->
+                <div class="course__item">
+                  <a href="#!" class="course__item-link">
+                    <img
+                      src="./assets/img/course-js.jpg"
+                      alt=""
+                      class="course-thumnail"
+                    />
+                    <span class="course-desc">Javascript Pro</span>
+                    <span class="price">
+                      <span class="pre-price">2.000.000đ</span>
+                      <span class="price-final">1.000.000đ</span>
+                    </span>
+                  </a>
+                </div>
+                <!-- item 2 -->
+                <div class="course__item">
+                  <a href="#!" class="course__item-link">
+                    <img
+                      src="./assets/img/course-c.png"
+                      alt=""
+                      class="course-thumnail"
+                    />
+                    <span class="course-desc">C++ từ noob đến pro</span>
+                    <span class="price">
+                      <span class="pre-price">2.000.000đ</span>
+                      <span class="price-final">1.000.000đ</span>
+                    </span>
+                  </a>
+                </div>
+                <!-- item 3 -->
+                <div class="course__item">
+                  <a href="#!" class="course__item-link">
+                    <img
+                      src="./assets/img/course-Csharp.png"
+                      alt=""
+                      class="course-thumnail"
+                    />
+                    <span class="course-desc">C# cho người mới</span>
+                    <span class="price">
+                      <span class="pre-price">2.000.000đ</span>
+                      <span class="price-final">1.000.000đ</span>
+                    </span>
+                  </a>
+                </div>
+                <!-- item 4 -->
+                <div class="course__item">
+                  <a href="#!" class="course__item-link">
+                    <img
+                      src="./assets/img/course-ctdlvgt.jpg"
+                      alt=""
+                      class="course-thumnail"
+                    />
+                    <span class="course-desc"
+                      >Cấu trúc dữ liệu và giải thuật</span
+                    >
+                    <span class="price">
+                      <span class="pre-price">2.000.000đ</span>
+                      <span class="price-final">1.000.000đ</span>
+                    </span>
+                  </a>
+                </div>
+                <!-- item 5 -->
+                <div class="course__item">
+                  <a href="#!" class="course__item-link">
+                    <img
+                      src="./assets/img/course-html_css.jpg"
+                      alt=""
+                      class="course-thumnail"
+                    />
+                    <span class="course-desc">Html Css cơ bản</span>
+                    <span class="price">
+                      <span class="pre-price">2.000.000đ</span>
+                      <span class="price-final">1.000.000đ</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- course free -->
+        
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div class="footer-body">
+        <div class="container footer__content">
+          <div class="footer__left">
+            <div class="nav__logo">
+              <a href="/"><img class="logo-img" src="./assets/img/logo.png" alt=""></a>
+            </div>
+            <p class="logo__desc">Trang web dạy học trực tuyến</p>
+            <div class="info-shop">
+              <!-- location -->
+              <i
+                class="fa fa-map-marker info__icon"
+                style="font-size: 24px"
+              ></i>
+              <span class="info-shop__desc"
+                >Trường Đại Học Hàng Hải Việt Nam</span
+              >
+            </div>
+            <!-- work time -->
+            <div class="info-shop">
+              <i class="fa fa-calendar info__icon" style="font-size: 24px"></i>
+              <span class="info-shop__desc"
+                >Giờ làm việc: Từ 9:00 đến 22:00 các ngày trong tuần từ Thứ 2
+                đến Chủ nhật</span
+              >
+            </div>
+            <!-- hotline -->
+            <div class="info-shop">
+              <i
+                class="fa fa-phone-square info__icon"
+                style="font-size: 24px"
+              ></i>
+              <a href="tel:0345723186" class="info-shop__desc"
+                >Hotline: 0345723186</a
+              >
+            </div>
+          </div>
+          <div class="footer__right">
+            <!-- menu 1 -->
+            <ul class="menu">
+              <li class="menu__title">Về chúng tôi</li>
+              <li class="menu__item">
+                <a href="#home">Trang chủ</a>
+              </li>
+              <li class="menu__item">
+                <a href="#!">Thông tin chi tiết</a>
+              </li>
+              <li class="menu__item">
+                <a href="#!">Bằng cấp</a>
+              </li>
+              <li class="menu__item">
+                <a href="#!">Liên hệ</a>
+              </li>
+            </ul>
+            <!-- menu 2 -->
+            <ul class="menu">
+              <li class="menu__title">Hỗ trợ khách hàng</li>
+              <li class="menu__item">
+                <a href="#home">Trang chủ</a>
+              </li>
+              <li class="menu__item">
+                <a href="#!">Tư vấn khóa học</a>
+              </li>
+              <li class="menu__item">
+                <a href="#!">Sản phẩm</a>
+              </li>
+              <li class="menu__item">
+                <a href="#!">Về lớp học</a>
+              </li>
+            </ul>
+            <!-- menu 3 -->
+            <ul class="menu">
+              <li class="menu__title">Dịch vụ</li>
+              <li class="menu__item">
+                <a href="#home">Trang chủ</a>
+              </li>
+              <li class="menu__item">
+                <a href="#!">Thông tin khóa học</a>
+              </li>
+              <li class="menu__item">
+                <a href="#!">Sản phẩm</a>
+              </li>
+              
+              <li class="menu__item">
+                <a href="#!">Liên hệ</a>
+              </li>
+              <li class="social-network">
+                <a href="#!"
+                  ><img
+                    src="./assets/img/Instagram.svg"
+                    alt=""
+                    class="info__icon"
+                /></a>
+                <a href="#!"
+                  ><img
+                    src="./assets/img/linked_in.svg"
+                    alt=""
+                    class="info__icon"
+                /></a>
+                <a href="#!"
+                  ><img
+                    src="./assets/img/twitter.svg"
+                    alt=""
+                    class="info__icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="exclusive">
+        <span class="exclusive__desc"
+          >© Bản quyền thuộc về Team Cương Thái Ninh | Cung cấp bởi CTN
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>

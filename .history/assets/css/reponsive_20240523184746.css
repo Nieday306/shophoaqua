@@ -1,0 +1,8 @@
+@media screen and (max-width: 471px) {
+  body {
+    height: 100vh;
+  }
+  footer {
+    height: 1000px;
+  }
+}
